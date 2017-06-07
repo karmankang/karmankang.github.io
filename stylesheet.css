@@ -190,3 +190,7 @@ body {
   margin: auto;
   display: block;
 }
+
+#maintitle {
+ font-family: Impact, Charcoal, sans-serif; 
+}
