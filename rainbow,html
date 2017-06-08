@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #red {
+  width: 600px;
+  height: 600px;
+  background: red;
+  -moz-border-radius: 300px;
+  -webkit-border-radius: 300px;
+  border-radius: 300px;
+}
+
+#orange {
+  width: 575px;
+  height: 575px;
+  background: orange;
+  -moz-border-radius: 287.5px;
+  -webkit-border-radius: 287.5px;
+  border-radius: 287.5px;
+  position: relative;
+  bottom: 575px;
+  left: 13px;
+}
+
+#yellow {
+  width: 550px;
+  height: 550px;
+  background: yellow;
+  -moz-border-radius: 275px;
+  -webkit-border-radius: 275px;
+  border-radius: 275px;
+  position: relative;
+  bottom: 1125px;
+  left: 26px;
+}
+
+#green {
+   width: 525px;
+  height: 525px;
+  background: green;
+  -moz-border-radius: 262.5px;
+  -webkit-border-radius: 262.5px;
+  border-radius: 262.5px;
+  position: relative;
+  bottom: 1652px;
+  left: 39px;
+}
+
+#blue {
+  width: 500px;
+  height: 500px;
+  background: blue;
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  border-radius: 250px;
+  position: relative;
+  bottom: 2152px;
+  left: 52px;
+}
+
+#indigo {
+  width: 475px;
+  height: 475px;
+  background: indigo;
+  -moz-border-radius: 237.5px;
+  -webkit-border-radius: 237.5px;
+  border-radius: 237.5px;
+  position: relative;
+  bottom: 2627px;
+  left: 65px;
+}
+
+#violet {
+  width: 450px;
+  height: 450px;
+  background: violet;
+  -moz-border-radius: 225px;
+  -webkit-border-radius: 225px;
+  border-radius: 225px;
+  position: relative;
+  bottom: 3075px;
+  left: 78px;
+}
+
+#white {
+  width: 425px;
+  height: 425px;
+  background: white;
+  -moz-border-radius: 212.5px;
+  -webkit-border-radius: 212.5px;
+  border-radius: 212.5px;
+  position: relative;
+  bottom: 3500px;
+  left: 91px;
+}
+
+#rectangle {
+  width: 600px;
+  height: 600px;
+  background: white;
+  position: relative;
+  bottom: 3800px;
+  left: 130;
+}
+  </style>
+</head>
+<body>
+<div id="red">
+</div>
+
+<div id="orange">
+</div>
+
+<div id="yellow">
+</div>
+
+<div id="green">
+</div>
+
+<div id="blue">
+</div>
+
+<div id="indigo">
+</div>
+
+<div id="violet">
+</div>
+
+<div id="white">
+</div>
+
+<div id="rectangle">
+</div>
+</body>
+</html
