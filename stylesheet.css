@@ -201,4 +201,5 @@ body {
   width: 400px;
   position: relative;
   top: 30px;
+  float: left;
 }
