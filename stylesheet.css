@@ -194,6 +194,8 @@ body {
 #maintitle {
  font-family: Impact, Charcoal, sans-serif; 
  font-size: 45px;
+ position: relative;
+ top: 15px;
 }
 
 #logo {
