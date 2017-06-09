@@ -192,7 +192,7 @@ body {
 
 #maintitle {
  font-family: Impact, Charcoal, sans-serif; 
- font-size: 80px;
+ font-size: 75px;
  position: relative;
  top: 50px;
 }
@@ -203,6 +203,10 @@ body {
   position: relative;
   top: 7px;
   float: left;
+}
+
+#maintitle a:visited {
+ color: black; 
 }
 
 #boldthis {
