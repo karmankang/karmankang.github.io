@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+     .wrap {
+	perspective: 800px;
+	perspective-origin: 50% 100px;
+  position: relative;
+  top: 200px;
+  left: 150px;
+}
 
+.cube {
+	position: relative;
+	width: 200px;
+	transform-style: preserve-3d;
+ 
+}
+
+.cube div {
+	position: absolute;
+	width: 195px;
+	height: 195px;
+  border: 3px solid black;
+  background: linear-gradient(pink,blue);
+}
+
+.back {
+	transform: translateZ(-100px) rotateY(180deg);
+}
+.right {
+	transform: rotateY(-270deg) translateX(100px);
+	transform-origin: top right;
+}
+.left {
+	transform: rotateY(270deg) translateX(-100px);
+	transform-origin: center left;
+}
+.top {
+	transform: rotateX(-90deg) translateY(-100px);
+	transform-origin: top center;
+}
+.bottom {
+	transform: rotateX(90deg) translateY(100px);
+	transform-origin: bottom center;
+}
+.front {
+	transform: translateZ(100px);
+}
+
+@keyframes spin {
+	from { transform: rotateY(0); }
+	to { transform: rotateY(360deg); }
+}
+
+.cube {
+	animation: spin 5s infinite linear;
+}
+    
+  </style>
+</head>  
+<div class="wrap">
+	<div class="cube">
+		<div class="front"></div>
+		<div class="back"></div>
+		<div class="top"></div>
+		<div class="bottom"></div>
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+</div>
+</body>
+</html>
